@@ -1,0 +1,28 @@
+<h1>Excercises</h1>
+<hr>
+<!-- Exercise 1 -->
+<div class="ex1">
+    <h2>1</h2>
+    <input type="text" placeholder="Saisir une color" (input)="captureColor($event)">
+    <div class="color_square" [ngStyle]="{'background-color': colorB}"></div>
+</div>
+
+<hr>
+
+<!-- Exercise 2 -->
+<div class="ex2">
+    <h2>2</h2>
+    <button on-click="showMessage()">{{ message }} du Hello</button>
+    <h3 *ngIf="showHello">Hello !</h3>
+
+</div>
+<hr>
+<!-- Excercise 3 -->
+<div class="ex3">
+    <h2>3</h2>
+    <div *ngFor="let info of users; index as i" class="info-card">
+        <span>{{i}}</span>
+        <span>Prénom: {{info.firstName}}</span>
+        <span>Nom: {{info.lastName}}</span>
+    </div>
+</div>

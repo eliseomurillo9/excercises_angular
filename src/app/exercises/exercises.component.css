@@ -1,0 +1,45 @@
+.ex1{
+text-align: center;
+margin: 50px auto;
+}
+
+.color_square{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 0.4px solid rgb(136, 135, 135, 0.4);
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+}
+
+h3{
+    background-color: red;
+    width: 100px;
+    text-align: center;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+
+    text-align: center;
+}
+
+.ex2{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.ex2 h3{
+    margin: 10px auto;
+}
+
+.ex3{
+    text-align: center;
+}
+ .ex3 div{
+    margin: 10px auto;
+ }
